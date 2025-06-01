@@ -1,0 +1,16 @@
+{
+  "default": {
+    "limit": 5,
+    "windowInSeconds": 60
+  },
+  "apiLimits": {
+    "/search": {
+      "limit": 3,
+      "windowInSeconds": 30
+    },
+    "/upload": {
+      "limit": 2,
+      "windowInSeconds": 60
+    }
+  }
+}

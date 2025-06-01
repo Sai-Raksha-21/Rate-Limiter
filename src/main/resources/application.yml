@@ -1,0 +1,6 @@
+ratelimit:
+  defaultLimit: 5
+  windowInSeconds: 60
+  limits:
+    /api/data: 10
+    /api/status: 2
